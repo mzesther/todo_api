@@ -26,11 +26,11 @@ function registerUser() {
 	var registerPassword = document.getElementById('newPassword').value
 	// store new user data in an object
 	var newUser = {
-        firstname = registerFirstname,
-        lastname = registerLastname,
-         emailaddress = registerEmailaddress,
-		username = registerUsername,
-		password = registerPassword
+        firstname: registerFirstname,
+        lastname: registerLastname,
+         emailaddress: registerEmailaddress,
+		username: registerUsername,
+		password: registerPassword
 	}
 	
 	
